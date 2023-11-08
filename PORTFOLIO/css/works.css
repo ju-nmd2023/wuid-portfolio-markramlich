@@ -1,0 +1,94 @@
+h2 {
+  font-size: 20px;
+  color: rgb(89, 89, 89);
+  line-height: 24px;
+  margin-left: 5px;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 5px;
+}
+
+a {
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 5px;
+  color: rgb(0, 3, 6);
+  font-style: normal;
+  display: flex;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  margin: 7px;
+}
+footer {
+  background-color: rgb(255, 255, 255);
+  height: 20px;
+}
+main {
+  margin-top: 50px;
+}
+
+body {
+  background-color: rgb(196, 202, 220);
+  margin: 0;
+  height: 150vh;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.site-header {
+  height: 50px;
+  position: fixed;
+  top: 0;
+  background-color: rgb(255, 255, 255);
+  width: 100vw;
+}
+
+.coffeebook {
+  width: 80vw;
+  height: 30vw;
+  margin: 10px;
+}
+
+.photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.magazine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phoebe {
+  width: 55vw;
+  height: 40vw;
+  margin: 10px;
+}
+
+.logo {
+  width: 50vw;
+  height: 40vw;
+  margin: 10px;
+}
+
+.visual-identity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+}

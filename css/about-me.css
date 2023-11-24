@@ -51,6 +51,7 @@ footer {
 }
 main {
   margin-top: 50px;
+  margin-left: 5px;
 }
 
 body {
@@ -61,7 +62,6 @@ body {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  margin-left: 5px;
 }
 
 .site-header {
@@ -70,6 +70,40 @@ body {
   top: 0;
   background-color: rgb(255, 255, 255);
   width: 100vw;
+}
+
+#submitButton {
+  width: fit-content;
+  animation-timing-function: ease-in-out;
+}
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#submitButton:hover {
+  animation-name: shake;
+  animation-duration: 1s;
+}
+/* #thankYouMessage {
+  
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+} */
+
+@keyframes shake {
+  20% {
+    transform: rotate(20deg);
+  }
+  40% {
+    transform: rotate(-20deg);
+  }
+  60% {
+    transform: rotate(20deg);
+  }
+  80% {
+    transform: rotate(-20deg);
+  }
 }
 
 /* div.contact {
